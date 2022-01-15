@@ -1,0 +1,29 @@
+{
+  "name": "ozblog",
+  "version": "1.0.0",
+  "description": "Initial version that allows admin to submit a post",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzIheb/Drunkwebsite.git"
+  },
+  "keywords": [
+    "blog",
+    "admin",
+    "SEO"
+  ],
+  "author": "Iheb Oz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OzIheb/Drunkwebsite/issues"
+  },
+  "homepage": "https://github.com/OzIheb/Drunkwebsite#readme",
+  "dependencies": {
+    "express-fileupload": "^1.2.1",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
