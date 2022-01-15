@@ -8,10 +8,6 @@ app.use(fileupload());
 app.get('/', (req, res) => {
     res.sendFile(path.join(initial_path, "home.html"));
 })
-
-app.listen("3000", () => {
-    console.log('listening......');
-})
 app.get('/editor', (req, res) => {
     res.sendFile(path.join(initial_path, "editor.html"));
 })
@@ -39,4 +35,8 @@ app.get("/:blog", (req, res) => {
 
 app.use((req, res) => {
     res.json("404");
+})
+
+app.listen("3000", () => {
+    console.log('listening......');
 })
