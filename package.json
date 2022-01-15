@@ -4,7 +4,7 @@
   "description": "Initial version that allows admin to submit a post",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon server.js" 
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "express-fileupload": "^1.2.1",
     "express.js": "^1.0.0",
+    "firebase": "^9.6.3",
     "nodemon": "^2.0.15"
   }
 }
